@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Prompt:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    height: 550px;
+    margin: 0 auto;
+    background: url('image/jared-brashier-6WPcf5D1XdA-unsplash.jpg') no-repeat;
+    background-size: cover;
+}
+
+header{
+    
+}
+
+nav{
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    width: 570px;
+    justify-content: center;
+}
+
+nav ul li a{
+    padding: 0 1.5rem;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.logo strong{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.header-info{
+    width: 570px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 130px;
+}
+.header-info h1{
+    font-size: 64px;
+    color: #fff;
+}
+
+.header-content p{
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-header{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-header a{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #333333;
+    font-weight: bolder;
+    background-color: blanchedalmond;
+}
+
+.btn-header a:hover{
+    background: none;
+    border: 3px solid blanchedalmond;
+    color: #fff;
+}
+
+.container-welcome{
+    height: 200px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.title{
+    margin-top: 90px;
+}
+
+.container-welcome h1{
+    font-size: 36px;
+    text-align: center;
+    color: #333333;
+}
+
+.welcome-content{
+    width: 770px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.welcome-content p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card-box{
+    width: 1440px;
+    height: 260px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.card{
+    background-color: #FFE9B1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0 0 30px skyblue;
+}
+
+.card-title h2{
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.card-content p{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.border{
+    background-color: #333333;
+    color: #fff;
+}
+
+.icons{
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.our-services{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.services-title h2{
+    font-size: 2rem;
+    margin-top: 5rem;
+    color: #333333;
+    text-align: center;
+}
+
+.card-our{
+    background-color: #F5D5AE;
+    padding: 1rem 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.person{
+    width: 1440px;
+    height: 240px;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #9bddfc;
+    border-radius: 10px;
+}
+
+.img{
+    display: flex;
+    justify-content: right;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+
+.img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.person-content{
+    margin-top: 3rem;
+}
+
+.person-content h2{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.person-content h4{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+footer{
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    width: 1440px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 2px;
+    padding-top: 1.5rem;
+}
